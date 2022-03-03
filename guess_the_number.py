@@ -8,7 +8,7 @@ while answer != "e":
     answer=input("k/e/n?")
     if answer == "k":
         max=guess-1
-    elif answer == "n"
+    elif answer == "n":
         min=guess+1
 print("A gondolt szám ", guess)
 
