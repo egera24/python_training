@@ -2,13 +2,13 @@
 # aminek paraméterül át lehet adni két lebegőpontos számot,
 # és adja vissza a kettő közül a nagyobbat
 
-# def get_max(a, b):
-#     if a > b:
-#         return a
-#     else:
-#         return b
-#
-# print(get_max(6.8, 6.8))
+def get_max(a, b):
+    if a > b:
+        return a
+    else:
+        return b
+
+print(get_max(6.8, 6.8))
 
 
 # Írjatok egy beszédes print_square függvényt,
@@ -37,7 +37,7 @@ def repeat_words_with_hyphens(words: list) -> str:
         result += "-" + word + "-"
     return result
 
-print(repeat_words_with_hyphens("alma", "korte", "meggy"))
+print(repeat_words_with_hyphens(["alma", "korte", "meggy"]))
 
 
 
